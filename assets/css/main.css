@@ -2640,6 +2640,10 @@ input, select, textarea {
 			margin: 0;
 		}
 
+			#header h1 .nowrap {
+				white-space: nowrap;
+			}
+
 		#header .image.avatar {
 			margin: 0 0 1em 0;
 			width: 6.25em;
@@ -3170,6 +3174,10 @@ input, select, textarea {
 				#header h1 {
 					font-size: 1.35em;
 				}
+
+					#header h1 .nowrap {
+						white-space: normal;
+					}
 
 		/* Footer */
 

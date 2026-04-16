@@ -1110,6 +1110,10 @@ $size-header-pad: 4em;
 			font-size: 1.35em;
 			line-height: 1.75em;
 			margin: 0;
+
+			.nowrap {
+				white-space: nowrap;
+			}
 		}
 
 		.image.avatar {
@@ -1563,6 +1567,10 @@ $size-header-pad: 4em;
 
 				h1 {
 					font-size: 1.35em;
+
+					.nowrap {
+						white-space: normal;
+					}
 				}
 			}
 
