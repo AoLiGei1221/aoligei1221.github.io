@@ -1,0 +1,48 @@
+# Python runtime artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+myenv/
+venv/
+.venv/
+env/
+.env/
+
+# Local environment and secrets
+.env
+.env.*
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+
+# Logs and process output
+*.log
+nohup.out
+flask_server.log
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Build/cache directories
+.cache/
+dist/
+build/
+
+# Optional local deployment scratch files
+*.pid
+*.sock
+
+# Local agent instructions
+AGENTS.md
